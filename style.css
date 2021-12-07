@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 30px;
+    font-size: 15px;
+}
+
+section.container{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+}
+
+section.container .heading{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section .heading h2{
+    font-weight: 200;
+    color:hsl(229, 6%, 66%);
+}
+
+section .heading h1{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 25pxz;
+}
+
+section .heading p{
+     font-size:15px; 
+     font-weight: 400;
+     color:hsl(229, 6%, 66%); 
+}
+
+section.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+
+section.second-container .review-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 400px;
+   gap: 30px;
+   
+}
+
+section.second-container .review-card .card-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+
+h3{
+  padding-top:30px;
+  padding-left: 20px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: large;
+}
+
+section.second-container .review-card p{
+    padding-left:20px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    width: 70%;
+    font-size: 15px;
+}
+.color{
+    
+    border-radius: 10px;
+    box-shadow: 0 7px 7px 5px rgba(0, 0, 0, 0.2);
+}
+
+span img{
+    position: relative;
+    left: 20em;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.image-1{
+    padding-bottom: 20px;
+}
+
+.image-styling{
+    position: relative;
+    top: 30px;
+}
+
+.card-padding{
+    transform: translateY(10%);
+}
+
+
+ .red{
+     border-top: solid 7px hsl(0, 78%, 62%);
+ }
+
+ .cyan{
+     border-top: solid 7px hsl(180, 62%, 55%);
+ }
+
+ .blue{
+    border-top: solid 7px hsl(212, 86%, 64%);
+ }
+
+.orange{
+    border-top: solid 7px hsl(34, 97%, 64%);
+}
+
+@media (min-width: 1220px){
+    body{
+        padding-top: 5rem;
+        height: 100vh;
+        overflow: hidden;
+        
+    }
+
+    section.container{
+        max-width: 1220px !important;
+        padding-bottom: 50px;
+        
+    }
+
+    section.second-container{
+        padding-top: 30px;
+        
+        
+    }
+
+
+    section.second-container .review-card{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+}
+  .card-padding{
+      transform: translateY(7%);
+  }
+  .card-pad{
+      transform: translateY(-7%)
+  }
+}
+
+
+
+
